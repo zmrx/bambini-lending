@@ -1,0 +1,27 @@
+$zindex-dropdown: 1000 !default;
+$zindex-sticky: 1020 !default;
+$zindex-fixed: 1030 !default;
+$zindex-modal-backdrop: 1040 !default;
+$zindex-modal: 1050 !default;
+$zindex-popover: 1060 !default;
+$zindex-tooltip: 1070 !default;
+
+$screen-xs: 0;
+/* Small screen / phone*/
+$screen-sm: 576px;
+/* Medium screen / tablet*/
+$screen-md: 768px;
+/* Large screen / desktop*/
+$screen-lg: 992px;
+/* Extra large screen / wide desktop*/
+$screen-xl: 1200px;
+/* hd screen / wide desktop*/
+$screen-hd: 1366px;
+
+$transition-fast:.2s;
+
+$color-white: #fff;
+$color-yellow: #FCC50D;
+$color-light-blue: #F4F7FC;
+$color-soft-black: #4C4C4C;
+$color-soft-red: #DF665D;
