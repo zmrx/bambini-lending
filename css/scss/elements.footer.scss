@@ -1,21 +1,92 @@
-
-
 footer{
 background-color: $color-soft-red;
+display: block;
+padding: 40px 0;
+.content-inner{
+    flex-wrap: nowrap;
+}
+@media(max-width: $screen-xl){
+    .content-inner{
+        flex-direction: column;
+    }
+    .logo-box{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .footer-menu{
+        padding-bottom: 25px;
+    }
+}
+.logo-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .img-box{
+        height: 121px;
+        min-width: 99px;
+        width: 99px;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    span{
+        padding-left: 25px;
+        font-size: 1rem;
+        line-height: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-white;
+    }
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: 1.1rem;
+        li{}
+        a{
+            margin: 10px;
+            color: $color-white;
+            &:hover,
+            &:focus,
+            &:active{
+                color: $color-white;
+                text-decoration: none;
+            }
+        }
+    }
+    .confident{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        text-decoration: underline;
+        &:hover,
+        &:focus,
+        &:active{
+            color: $color-white;
+            text-decoration: underline;
+        }
+    }
+}
 
 //desktop
 @media(min-width: $screen-xl){
-    &{
-        display: block;
-        padding: 40px 0;
-    }
     .content-inner{
         align-items: center;
         justify-content: space-between;
     }
     .logo-box{
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
         .img-box{
             height: 150px;
@@ -37,14 +108,12 @@ background-color: $color-soft-red;
         }
     }
     .footer-menu{
-        max-width: 60%;
+        max-width: 65%;
         ul{
-            display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
             list-style: none;
-            padding: 0;
-            margin: 0;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             li{}
             a{
                 margin: 15px;
@@ -60,19 +129,7 @@ background-color: $color-soft-red;
                 }
             }
         }
-        .confident{
-            display: flex;
-            justify-content: center;
-            color: $color-white;
-            font-size: 0.8rem;
-            text-decoration: underline;
-            &:hover,
-            &:focus,
-            &:active{
-                color: $color-white;
-                text-decoration: underline;
-            }
-        }
+
     }
 }
 }

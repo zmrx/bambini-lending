@@ -119,7 +119,34 @@
             </div>
         </div>
     </secion>
-    <section></section>
+    <section class="our-advantages">
+        <div class="wrapper">
+            <div class="content-inner">
+
+                <h2>Наши преимущества</h2>
+
+                <div class="list">
+                    <div class="item">
+                        <div class="img-container">
+                            <img src="/img/advantages_1.png" alt="">
+                        </div>
+                        <div class="text-container">
+                            <div class="text-header">
+                                <div class="text-header__img-continer">
+                                    <img src="/img/advantages_logo_1.svg">
+                                </div>
+                                <span>Более 20 развивающих занятий в неделю</span>
+                            </div>
+                            <div class="text-content">
+                                Английский язык, артикуляционная и пальчиковая гимнастика, рисование кварцевым песком, творчество, хореография, многое другое
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="wrapper">

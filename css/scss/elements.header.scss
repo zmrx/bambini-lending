@@ -3,9 +3,7 @@ header .mobile{
     display: block;
     background-color: $color-soft-red;
     @media(min-width: $screen-xl){
-        &{
-            display: none;
-        }
+        &{display: none}
     }
     .content-inner{
         justify-content: space-between;
@@ -99,7 +97,7 @@ header .mobile{
             margin: 0;
             list-style: none;
             li{
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
             a{
                 margin: 10px;
@@ -107,7 +105,7 @@ header .mobile{
                 &:hover,
                 &:focus,
                 &:active{
-                    color: $color-soft-red;
+                    color: $color-white;
                     text-decoration: none;
                 }
             }
@@ -120,6 +118,7 @@ header .mobile{
         a{
             color: $color-white;
             font-size: 1.2rem;
+            text-align: center;
             text-decoration: underline;
             &:hover,
             &:focus,
