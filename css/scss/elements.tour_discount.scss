@@ -1,0 +1,155 @@
+.tour_discount{
+
+    .content-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    h2{
+        margin: 0;
+        padding-bottom: 80px;
+        color: $color-white;
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    .text-container{padding-bottom: 15px}
+    .main-text{
+        width: 100%;
+        color: $color-soft-black;
+        font-size: 1.5rem;
+        line-height: 1;
+        font-weight: 700;
+        text-align: center;
+        overflow: hidden;
+        .big{font-size: 2em;
+            b{color:$color-yellow}
+        }
+    }
+    .sub-text{
+        display: inline-block;
+        width: 100%;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .form{}
+
+    .input-item{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 15px;
+        label{
+            padding-left: 20px;
+            font-size: 0.8rem;
+        }
+        input{
+            padding: 16px 18px;
+            height: 50px;
+            width: 100%;
+            max-width: 450px;
+            border:2px solid $color-white;
+            border-radius: 5px;
+            box-shadow: 0px 10px 25px rgba(223, 102, 93, 0.26);
+            font-size: 0.9rem;
+            color: $color-grey;
+            transition: $transition-fast;
+            &:focus{
+                outline:none;
+                border: 2px solid $color-yellow;
+                transition: $transition-fast;
+            }
+        }
+    }
+    .input-item-checkbox{
+        display: flex;
+        padding-left: 30px;
+        padding-bottom: 15px;
+        font-size: 0.8rem;
+        color: $color-soft-black;
+
+        label{
+            position: relative;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: -30px;;
+                transform: translateY(-50%);
+                height: 1rem;
+                width: 1rem;
+                border-radius: 5px;
+                background-color: $color-white;
+                box-shadow: 0px 10px 25px rgba(223, 102, 93, 0.26);
+            }
+            &::after{
+                content: "";
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: -30px;;
+                transform: translateY(-50%);
+                height: 1rem;
+                width: 1rem;
+                background-image: url($path+'/img/tick.svg');
+                transition: $transition-fast
+            }
+            cursor: pointer;
+        }
+        input{
+            display: none;
+        }
+        input:checked + label::after{
+            opacity: 1;
+            transition: $transition-fast
+        }
+        a{
+            color: $color-soft-black;
+            text-decoration:underline;
+        }
+    }
+    .input-item-submit{
+        display: flex;
+        .global-btn{
+            border: none;
+            width: 100%;
+            max-width: 450px;
+        }
+    }
+
+    .input-item,
+    .input-item-checkbox,
+    .input-item-submit{
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media(min-width: $screen-lg){
+        .main-text{
+            text-align: left;
+        }
+        .sub-text{
+            text-align: left;
+        }
+        .input-item,
+        .input-item-checkbox,
+        .input-item-submit{
+            justify-content: left;
+            align-items: flex-start;
+        }
+    }
+
+    @media(min-width: $screen-xl){
+        .main-text{
+            font-size: 2.25rem;
+            text-align: left;
+        }
+        .sub-text{
+            font-size: 1.4rem;
+        }
+        .form{
+            max-width: 450px;
+        }
+    }
+}

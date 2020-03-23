@@ -1,0 +1,44 @@
+.gellary{
+    .content-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0;
+
+    }
+    h2{
+        margin: 0;
+        padding-bottom: 80px;
+        color: $color-soft-black;
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item{
+        padding: 0 0 20px;
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    }
+
+    @media(min-width: $screen-md){
+        .content-inner{
+            padding: 100px 0;
+        }
+        .list{
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+        .item{
+            padding: 20px;
+            width: 50%;
+        }
+    }
+}
