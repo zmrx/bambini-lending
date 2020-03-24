@@ -78,3 +78,17 @@ body{
         }
     }
 }
+
+#modal-privacy-policy .inner p{
+    margin-bottom:5px;
+}
+
+#modal-privacy-policy .inner h3{
+    margin:35px 0 10px;
+    &:first-child{
+        margin-top: 0px;
+    }
+}
+[data-modalname=modal-privacy-policy]{
+    cursor:pointer;
+}
