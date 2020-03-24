@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/compiled.min.css">
 </head>
 <body>
-    <header>
+    <header id="anchor_main">
         <div class="mobile">
             <div class="wrapper">
                 <div class="content-inner">
@@ -27,12 +27,12 @@
                         </div>
                         <div class="nav-mobile">
                             <ul>
-                                <a href="#"><li>Главная</li></a>
-                                <a href="#"><li>Преимущества</li></a>
-                                <a href="#"><li>О нас</li></a>
-                                <a href="#"><li>Отзывы</li></a>
-                                <a href="#"><li>Галерея</li></a>
-                                <a href="#"><li>Контакты</li></a>
+                                <a href="#anchor_main"><li>Главная</li></a>
+                                <a href="#anchor_our-advantages"><li>Преимущества</li></a>
+                                <a href="#anchor_bambini_web"><li>О нас</li></a>
+                                <a href="#anchor_reviews"><li>Отзывы</li></a>
+                                <a href="#anchor_gellary"><li>Галерея</li></a>
+                                <a href="#anchor_contacts"><li>Контакты</li></a>
                             </ul>
                         </div>
                         <div class="confident">
@@ -75,12 +75,12 @@
                     </div>
                     <nav>
                         <ul>
-                            <a href="#"><li>Главная</li></a>
-                            <a href="#"><li>Преимущества</li></a>
-                            <a href="#"><li>О нас</li></a>
-                            <a href="#"><li>Отзывы</li></a>
-                            <a href="#"><li>Галерея</li></a>
-                            <a href="#"><li>Контакты</li></a>
+                            <a href="#anchor_main"><li>Главная</li></a>
+                            <a href="#anchor_our-advantages"><li>Преимущества</li></a>
+                            <a href="#anchor_bambini_web"><li>О нас</li></a>
+                            <a href="#anchor_reviews"><li>Отзывы</li></a>
+                            <a href="#anchor_gellary"><li>Галерея</li></a>
+                            <a href="#anchor_contacts"><li>Контакты</li></a>
                         </ul>
                     </nav>
                     <div class="btn_learn-more">
@@ -155,7 +155,7 @@
         </div>
     </secion>
     <!-- ===== Наши преимущества ===== -->
-    <section class="our-advantages">
+    <section class="our-advantages" id="anchor_our-advantages">
         <div class="wrapper">
             <div class="content-inner">
 
@@ -269,7 +269,7 @@
         </div>
     </section>
     <!-- ===== федеральная сеть бамбини ===== -->
-    <section class="bambini_web">
+    <section class="bambini_web" id="anchor_bambini_web">
         <div class="wrapper">
             <div class="content-inner">
 
@@ -338,7 +338,7 @@
         </div>
     </section>
     <!-- ===== Отзывы ===== -->
-    <section class="reviews">
+    <!-- <section class="reviews" id="anchor_reviews">
         <div class="wrapper">
             <div class="content-inner">
 
@@ -367,9 +367,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ===== Получить подарок ===== -->
-    <section class="gift">
+    <section class="gift" id="anchor_gift">
         <div class="wrapper">
             <div class="content-inner">
 
@@ -410,7 +410,7 @@
         </div>
     </section>
     <!-- ===== Галлерея ===== -->
-    <section class="gellary">
+    <section class="gellary" id="anchor_gellary">
         <div class="wrapper">
             <div class="content-inner">
 
@@ -452,7 +452,7 @@
         </div>
     </section>
     <!-- ===== Контакты ===== -->
-    <section class="contacts">
+    <section class="contacts" id="anchor_contacts">
         <div class="wrapper">
             <div class="content-inner">
                 <h2>Контакты</h2>
@@ -502,12 +502,12 @@
                 </div>
                 <div class="footer-menu">
                     <ul>
-                        <a href="#"><li>Главная</li></a>
-                        <a href="#"><li>Преимущества</li></a>
-                        <a href="#"><li>О нас</li></a>
-                        <a href="#"><li>Отзывы</li></a>
-                        <a href="#"><li>Галерея</li></a>
-                        <a href="#"><li>Контакты</li></a>
+                        <a href="#anchor_main"><li>Главная</li></a>
+                        <a href="#anchor_our-advantages"><li>Преимущества</li></a>
+                        <a href="#anchor_bambini_web"><li>О нас</li></a>
+                        <a href="#anchor_reviews"><li>Отзывы</li></a>
+                        <a href="#anchor_gellary"><li>Галерея</li></a>
+                        <a href="#anchor_contacts"><li>Контакты</li></a>
                         <a class="confident"><li data-modalname="modal-privacy-policy">Политика конфиденциальности</li></a>
                     </ul>
 

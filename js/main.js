@@ -1,9 +1,36 @@
 $(document).ready(function(){
-	$('.burger-menu').on('click',function(){
+    function burgerMenuToggle(){
         $('.burger-menu').toggleClass('open');
 		$('.menu-mobile').slideToggle();
-	});
+	}
+	$('.burger-menu').on('click', burgerMenuToggle);
+
+    //плавный скролл
+    $('nav ul a , .footer-menu ul a').on( 'click', function(){
+        var el = $(this);
+        var dest = el.attr('href'); // получаем направление
+        if(dest !== undefined && dest !== '') { // проверяем существование
+            $('html').animate({
+                scrollTop: $(dest).offset().top // прокручиваем страницу к требуемому элементу
+            }, 500 // скорость прокрутки
+            );
+        }
+        return false;
+    });
+    $('.nav-mobile ul a').on( 'click', function(){
+        var el = $(this);
+        var dest = el.attr('href'); // получаем направление
+        if(dest !== undefined && dest !== '') { // проверяем существование
+            $('html').animate({
+                scrollTop: $(dest).offset().top // прокручиваем страницу к требуемому элементу
+            }, 500 // скорость прокрутки
+            );
+        }
+        return false;
+    });
 });
+
+
 
 //открытие модалки
 function modalOpener(e) {
