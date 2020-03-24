@@ -1,18 +1,9 @@
 .tour_discount{
-
     .content-inner{
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 50px 0;
-    }
-    h2{
-        margin: 0;
-        padding-bottom: 80px;
-        color: $color-white;
-        font-size: 2rem;
-        line-height: 2rem;
-        text-align: center;
     }
     .text-container{padding-bottom: 15px}
     .main-text{
@@ -33,9 +24,8 @@
         font-size: 0.9rem;
         text-align: center;
     }
-
+    // форма
     .form{}
-
     .input-item{
         display: flex;
         flex-direction: column-reverse;
@@ -117,12 +107,160 @@
             max-width: 450px;
         }
     }
-
     .input-item,
     .input-item-checkbox,
     .input-item-submit{
         justify-content: center;
         align-items: center;
+    }
+    // социальные сети и телефон
+    .social-container{
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 15px;
+        height: 125px;
+        background-color: $color-soft-red;
+        border-radius: 0 10px 0 0;
+
+        @media(min-width: $screen-xl){
+            display: flex;
+            width: calc( ( 100vw - #{$screen-xl} )/2 + 457px );
+        }
+        @media(min-width: $screen-hd){
+            width: calc( ( 100vw - #{$screen-hd} )/2 + 457px );
+        }
+
+        .social-name{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 0;
+            min-width: 250px;
+            color: $color-white;
+            font-weight: 700;
+        }
+
+        .social-list{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 0;
+            min-width: 450px;
+        }
+        .item{
+            &:not(:last-child){
+                margin-right: 10px;
+            }
+        }
+        .soc-img{
+            display: inline-block;
+        }
+
+        .tel{
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding-left: 40px;
+            height: 35px;
+            color: $color-white;
+            font-weight: 700;
+            transition: $transition-fast;
+            &:hover,
+            &:focus,
+            &:active{
+                text-decoration: none;
+                text-shadow: 0px 2px 10px #FCC50D;
+                transition: $transition-fast;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                height: 35px;
+                width: 35px;
+                background-image: url($path+'/img/social_phone_white.png');
+            }
+        }
+    }
+
+    .decoration{
+        position: relative;
+        .decoration-bg{
+            overflow: hidden;
+            height: 350px;
+            width: 100%;
+            /* transform: inherit; */
+            bottom: 0;
+
+        }
+        .decoration-inner{
+            height: 100%;
+            width: 100%;
+            z-index: 0;
+        }
+        .kid_1{
+            height: 100%;
+
+            width: 100%;
+            object-fit: contain;
+        }
+        @media(min-width: $screen-sm){
+            .decoration-bg{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 0;
+                height: 700px
+            }
+            .decoration-inner{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 0;
+                width: $screen-sm;
+            }
+            .decoration-bg{
+                height: 500px;
+            }
+            .kid_1{
+                position: absolute;
+                bottom: 0;
+                right: -200px;
+                width: auto;
+            }
+        }
+        @media(min-width: $screen-md){
+            .decoration-inner{
+                width: $screen-md;
+            }
+            .kid_1{
+                right: -150px;
+            }
+        }
+        @media(min-width: $screen-lg){
+            .decoration-inner{
+                width: $screen-lg;
+            }
+            .kid_1{
+                right: 0px;
+            }
+        }
+
+        @media(min-width: $screen-xl){
+            .decoration-inner{
+                width: $screen-xl;
+            }
+            .decoration-bg{
+                height: 700px;
+            }
+            .kid_1{
+                right: -50px;
+            }
+        }
     }
 
     @media(min-width: $screen-lg){

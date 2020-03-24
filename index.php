@@ -124,6 +124,33 @@
                 </div>
             </div>
         </div>
+        <div class="social-container">
+                <div class="social-name">
+                    Наши социальные сети:
+                </div>
+                <div class="social-list">
+                    <div class="item soc-img">
+                        <a href="[[+vk]]">
+                            <img src="/img/social_vk_white.png" alt="vk">
+                        </a>
+                    </div>
+                    <div class="item soc-img">
+                        <a href="[[+instagram]]">
+                            <img src="/img/social_inst_white.png" alt="instagramm">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="tel:+7 (000) 000 - 00 - 00" class="tel">+7 (000) 000 - 00 - 00</a>
+                    </div>
+                </div>
+        </div>
+        <div class="decoration">
+            <div class="decoration-bg">
+                <div class="decoration-inner">
+                    <img class="kid_1" src="/img/section_1-kid.png">
+                </div>
+            </div>
+        </div>
     </secion>
 
     <section class="our-advantages">
@@ -141,7 +168,7 @@
                         <div class="text-container">
                             <div class="text-inner">
                                 <div class="text-header">
-                                    <div class="text-header__img-continer">
+                                    <div class="text-header__img-container">
                                         <img src="/img/advantages_logo_1.svg">
                                     </div>
                                     <span>Более 20 развивающих занятий в неделю</span>
@@ -160,7 +187,7 @@
                         <div class="text-container">
                             <div class="text-inner">
                                 <div class="text-header">
-                                    <div class="text-header__img-continer">
+                                    <div class="text-header__img-container">
                                         <img src="/img/advantages_logo_2.svg">
                                     </div>
                                     <span>Онлайн видеонаблюдение</span>
@@ -179,7 +206,7 @@
                         <div class="text-container">
                             <div class="text-inner">
                                 <div class="text-header">
-                                    <div class="text-header__img-continer">
+                                    <div class="text-header__img-container">
                                         <img src="/img/advantages_logo_3.svg">
                                     </div>
                                     <span>5-разовое индивидуальное питание</span>
@@ -198,7 +225,7 @@
                         <div class="text-container">
                             <div class="text-inner">
                                 <div class="text-header">
-                                    <div class="text-header__img-continer">
+                                    <div class="text-header__img-container">
                                         <img src="/img/advantages_logo_4.svg">
                                     </div>
                                     <span>Работаем в режиме 24/7</span>
@@ -217,7 +244,7 @@
                         <div class="text-container">
                             <div class="text-inner">
                                 <div class="text-header">
-                                    <div class="text-header__img-continer">
+                                    <div class="text-header__img-container">
                                         <img src="/img/advantages_logo_5.svg">
                                     </div>
                                     <span>Регулярная санитарная  обработка</span>
@@ -248,7 +275,7 @@
                 <div class="list">
                     <!-- 1 -->
                     <div class="item">
-                        <div class="logo-continer">
+                        <div class="logo-container">
                             <img src="/img/bambini_web_1.svg">
                         </div>
                         <div class="text-container">
@@ -262,7 +289,7 @@
                     </div>
                     <!-- 2 -->
                     <div class="item">
-                        <div class="logo-continer">
+                        <div class="logo-container">
                             <img src="/img/bambini_web_2.svg">
                         </div>
                         <div class="text-container">
@@ -276,7 +303,7 @@
                     </div>
                     <!-- 3 -->
                     <div class="item">
-                        <div class="logo-continer">
+                        <div class="logo-container">
                             <img src="/img/bambini_web_3.svg">
                         </div>
                         <div class="text-container">
@@ -290,7 +317,7 @@
                     </div>
                     <!-- 4 -->
                     <div class="item">
-                        <div class="logo-continer">
+                        <div class="logo-container">
                             <img src="/img/bambini_web_4.svg">
                         </div>
                         <div class="text-container">
