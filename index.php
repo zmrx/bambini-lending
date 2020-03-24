@@ -90,6 +90,7 @@
             </div>
         </div>
     </header>
+    <!-- ===== скидка на экскурсию ===== -->
     <secion class="tour_discount">
         <div class="wrapper">
             <div class="content-inner">
@@ -147,12 +148,13 @@
         <div class="decoration">
             <div class="decoration-bg">
                 <div class="decoration-inner">
-                    <img class="kid_1" src="/img/section_1-kid.png">
+                    <!-- <img class="kid_1" src="/img/section_1-kid.png"> -->
+                    <img class="kid_1" src="/img/bg_1.png">
                 </div>
             </div>
         </div>
     </secion>
-
+    <!-- ===== Наши преимущества ===== -->
     <section class="our-advantages">
         <div class="wrapper">
             <div class="content-inner">
@@ -266,6 +268,7 @@
             </div>
         </div>
     </section>
+    <!-- ===== федеральная сеть бамбини ===== -->
     <section class="bambini_web">
         <div class="wrapper">
             <div class="content-inner">
@@ -334,6 +337,48 @@
             </div>
         </div>
     </section>
+    <!-- ===== Получить подарок ===== -->
+    <section class="gift">
+        <div class="wrapper">
+            <div class="content-inner">
+
+                <div class="text-container">
+                    <p class="main-text">
+                        Получи свой подарок прямо сейчас!
+                    </p>
+                    <span class="sub-text">Хотите, что бы ваш ребенок проводил время с пользой и развивался?<br> Мы предоставляем все возможности для роста вашего ребенка!</span>
+                </div>
+                <div class="form">
+                    <form>
+                        <div class="input-item">
+                            <input id="gift_name" type="text" placeholder="Елена петрова">
+                            <label for="gift_name">Ваше имя:</label>
+                        </div>
+                        <div class="input-item">
+                            <input id="gift_phone" type="text" placeholder="+7 (___) ___-__-__">
+                            <label for="gift_phone">Телефон:</label>
+                        </div>
+                        <div class="input-item-checkbox">
+                            <input id="gift_accept" type="checkbox" checked>
+                            <label for="gift_accept">Я принимаю условия <a href="#">Пользовательского соглашения</a></label>
+                        </div>
+                        <div class="input-item-submit">
+                            <input class="global-btn" type="submit" value="Оставить заявку">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="decoration">
+            <div class="decoration-bg">
+                <div class="decoration-inner">
+                    <img class="kid_1" src="/img/bg_2.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Галлерея ===== -->
     <section class="gellary">
         <div class="wrapper">
             <div class="content-inner">
@@ -375,6 +420,7 @@
             </div>
         </div>
     </section>
+    <!-- ===== Контакты ===== -->
     <section class="contacts">
         <div class="wrapper">
             <div class="content-inner">
@@ -405,6 +451,7 @@
             </div>
         </div>
     </section>
+    <!-- ===== Карта ===== -->
     <section class="map">
         <div class="wrapper">
             <div class="content-inner">

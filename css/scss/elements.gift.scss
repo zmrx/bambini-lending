@@ -1,4 +1,5 @@
-.tour_discount{
+.gift{
+    background-color: $color-purple;
     .content-inner{
         display: flex;
         flex-direction: column;
@@ -8,22 +9,19 @@
     .text-container{padding-bottom: 15px}
     .main-text{
         width: 100%;
-        color: $color-soft-black;
+        color: $color-white;
         font-size: 1.5rem;
         line-height: 1;
         font-weight: 700;
         text-align: center;
-        overflow: hidden;
-        .big{font-size: 2em;
-            b{color:$color-yellow}
-        }
+        // overflow: hidden;
     }
     .sub-text{
         display: inline-block;
         width: 100%;
-        font-size: 0.9rem;
+        color: $color-white;
+        font-size: 1.1rem;
         text-align: center;
-        color: $color-soft-black;
     }
     // форма
     .form{}
@@ -34,7 +32,7 @@
         label{
             padding-left: 20px;
             font-size: 0.8rem;
-            color: $color-soft-black;
+            color: $color-white;
         }
         input{
             padding: 16px 18px;
@@ -59,7 +57,7 @@
         padding-left: 30px;
         padding-bottom: 15px;
         font-size: 0.8rem;
-        color: $color-soft-black;
+        color: $color-white;
 
         label{
             position: relative;
@@ -97,7 +95,7 @@
             transition: $transition-fast
         }
         a{
-            color: $color-soft-black;
+            color: $color-white;
             text-decoration:underline;
         }
     }
@@ -114,79 +112,6 @@
     .input-item-submit{
         justify-content: center;
         align-items: center;
-    }
-    // социальные сети и телефон
-    .social-container{
-        display: none;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0 15px;
-        height: 125px;
-        background-color: $color-soft-red;
-        border-radius: 0 10px 0 0;
-
-        @media(min-width: $screen-xl){
-            display: flex;
-            width: calc( ( 100vw - #{$screen-xl} )/2 + 457px );
-        }
-        @media(min-width: $screen-hd){
-            width: calc( ( 100vw - #{$screen-hd} )/2 + 457px );
-        }
-
-        .social-name{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 15px 0;
-            min-width: 250px;
-            color: $color-white;
-            font-weight: 700;
-        }
-
-        .social-list{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            padding: 15px 0;
-            min-width: 450px;
-        }
-        .item{
-            &:not(:last-child){
-                margin-right: 10px;
-            }
-        }
-        .soc-img{
-            display: inline-block;
-        }
-
-        .tel{
-            position: relative;
-            display: flex;
-            align-items: center;
-            padding-left: 40px;
-            height: 35px;
-            color: $color-white;
-            font-weight: 700;
-            transition: $transition-fast;
-            &:hover,
-            &:focus,
-            &:active{
-                text-decoration: none;
-                text-shadow: 0px 2px 10px #FCC50D;
-                transition: $transition-fast;
-            }
-            &::before{
-                content: "";
-                position: absolute;
-                top: 50%;
-                left: 0;
-                transform: translateY(-50%);
-                height: 35px;
-                width: 35px;
-                background-image: url($path+'/img/social_phone_white.png');
-            }
-        }
     }
 
     @media(min-width: $screen-lg){
@@ -206,27 +131,27 @@
 
     @media(min-width: $screen-xl){
         .main-text{
-            font-size: 2.25rem;
+            font-size: 3rem;
             text-align: left;
         }
         .sub-text{
-            font-size: 1.4rem;
+            font-size: 1.1rem;
         }
         .form{
             max-width: 450px;
         }
     }
 
-
     // декорации
     .decoration{
         position: relative;
         .decoration-bg{
+            position: absolute;
             overflow: hidden;
             height: 350px;
             width: 100%;
             /* transform: inherit; */
-            bottom: 0;
+            bottom: -50px;
 
         }
         .decoration-inner{
@@ -240,10 +165,16 @@
             width: 100%;
             object-fit: contain;
         }
+        @media( max-width: $screen-sm - 1){
+            &{
+                min-height: 250px;
+            }
+        }
         @media(min-width: $screen-sm){
             .decoration-bg{
                 position: absolute;
                 left: 50%;
+                bottom: -50px;
                 transform: translateX(-50%);
                 z-index: 0;
                 height: 700px
@@ -256,7 +187,7 @@
                 width: $screen-sm;
             }
             .decoration-bg{
-                height: 500px;
+                height: 600px;
             }
             .kid_1{
                 position: absolute;
@@ -266,6 +197,9 @@
             }
         }
         @media(min-width: $screen-md){
+            .decoration-bg{
+                bottom: -100px;
+            }
             .decoration-inner{
                 width: $screen-md;
             }
