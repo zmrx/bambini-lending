@@ -338,36 +338,241 @@
         </div>
     </section>
     <!-- ===== Отзывы ===== -->
-    <!-- <section class="reviews" id="anchor_reviews">
+    <section class="reviews" id="anchor_reviews">
         <div class="wrapper">
             <div class="content-inner">
 
                 <h2>Отзывы</h2>
 
-                <div class="list">
-                    <div class="item">
-
-                        <div class="img-container">
-                            <img src="/img/reviews_1.png">
-                        </div>
-
-                        <div class="text-container">
-                            <div class="text-header">
-                                Татьяна Озерова
+                <div class="reviews-list-mobile">
+                    <!-- 1 -->
+                    <div class="slider-wrapper">
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Татьяна Озерова</div>
                             </div>
-                            <div class="text-content">
-                                Если хотите найти ребёнку хороший сад, тогда не сомневайтесь, вы его уже нашли, если читаете мой отзыв.
-                                Я говорю о садике bambiniclub_detsad. Как по мне, то выбор очевиден: если вы хотите, чтобы ребёнок был в садике счастлив, вам сюда. Наша дочь ходила в этот сад полгода. Сейчас по семейным обстоятельствам пришлось прекратить посещения.
-
-                                Мы ходили в младшую группу, группа небольшая, и это меня очень радовало, потому что воспитатели могут каждому уделить время. Каждый день даже у малышей проходят занятия, прогулки, время для игр, несмотря на то, что у нас младшая группа, каждую пятницу у деток проходили кулинарные мастер-классы, где малыши готовили вкусности, ребёнок от этого в восторге. Даже когда ребёнку нужно было диетическое питание, это тоже было легко согласовано, за это отдельное спасибо. В саду есть видеонаблюдение, всегда можно посмотреть чем занят ребёнок.
+                            <div class="img-container">
+                                <img src="/img/reviews_1.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">
+                                    Татьяна Озерова
+                                </div>
+                                <div class="text-content">
+                                    <p>Если хотите найти ребёнку хороший сад, тогда не сомневайтесь, вы его уже нашли, если читаете мой отзыв. Я говорю о садике bambiniclub_detsad. Как по мне, то выбор очевиден: если вы хотите, чтобы ребёнок был в садике счастлив, вам сюда. Наша дочь ходила в этот сад полгода. Сейчас по семейным обстоятельствам пришлось прекратить посещения.
+                                    </p>
+                                    <p>Мы ходили в младшую группу, группа небольшая, и это меня очень радовало, потому что воспитатели могут каждому уделить время. Каждый день даже у малышей проходят занятия, прогулки, время для игр, несмотря на то, что у нас младшая группа, каждую пятницу у деток проходили кулинарные мастер-классы, где малыши готовили вкусности, ребёнок от этого в восторге. Даже когда ребёнку нужно было диетическое питание, это тоже было легко согласовано, за это отдельное спасибо. В саду есть видеонаблюдение, всегда можно посмотреть чем занят ребёнок.</p>
+                                </div>
                             </div>
                         </div>
-
                     </div>
+                    <!-- 2 -->
+                    <div class="slider-wrapper">
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Татьяна Озерова</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_2.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Мария Корепова</div>
+                                <div class="text-content">
+                                    <p>Спасибо большое Вам и персоналу садика за работу, за доброту, за внимание и заботу о Нике! Это был наш первый садиковский опыт и я ни разу не пожалела, что отдала ее именно в Бамбини)</p>
+                                    <p>Сейчас мы озадачены выбором нового садика в Питере, обошли уже несколько, и с Бамбини ни один даже рядом не стоял) Очень жаль, что вас нельзя перевезти с собой!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="slider-wrapper">
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Мария Корепова</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_3.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Мария Корепова</div>
+                                <div class="text-content">
+                                    <p>Спасибо большое Вам и персоналу садика за работу, за доброту, за внимание и заботу о Нике! Это был наш первый садиковский опыт и я ни разу не пожалела, что отдала ее именно в Бамбини)</p>
+                                    <p>Сейчас мы озадачены выбором нового садика в Питере, обошли уже несколько, и с Бамбини ни один даже рядом не стоял) Очень жаль, что вас нельзя перевезти с собой!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="slider-wrapper">
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_3.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                                <div class="text-content">
+                                    <p>Ходили в этот садик почти год. Моя крошка была в восторге, а я спокойна, потому что знала, что здесь очень ответственный, заботливый персонал. К каждому найдут подход. Огромное спасибо нашему воспитателю и помощнице Олечке и Нуне.</p>
+                                    <p>Мы вас никогда не забудем, и будем скучать. Николаю отдельное спасибо, он и воспитатель, и заведующий в одном лице. Всех вам благ и процветания, всем рекомендую.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="slider-wrapper">
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_3.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                                <div class="text-content">
+                                    <p>Ходили в этот садик почти год. Моя крошка была в восторге, а я спокойна, потому что знала, что здесь очень ответственный, заботливый персонал. К каждому найдут подход. Огромное спасибо нашему воспитателю и помощнице Олечке и Нуне.</p>
+                                    <p>Мы вас никогда не забудем, и будем скучать. Николаю отдельное спасибо, он и воспитатель, и заведующий в одном лице. Всех вам благ и процветания, всем рекомендую.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="slider-wrapper">
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_3.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                                <div class="text-content">
+                                    <p>Ходили в этот садик почти год. Моя крошка была в восторге, а я спокойна, потому что знала, что здесь очень ответственный, заботливый персонал. К каждому найдут подход. Огромное спасибо нашему воспитателю и помощнице Олечке и Нуне.</p>
+                                    <p>Мы вас никогда не забудем, и будем скучать. Николаю отдельное спасибо, он и воспитатель, и заведующий в одном лице. Всех вам благ и процветания, всем рекомендую.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
+                <div class="reviews-list-desktop">
+
+                    <div class="slider-wrapper">
+                        <!-- 1 -->
+                        <div class="reviews-item">
+                            <div class="img-container">
+                                <img src="/img/reviews_1.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">
+                                    Татьяна Озерова
+                                </div>
+                                <div class="text-content">
+                                    <p>Если хотите найти ребёнку хороший сад, тогда не сомневайтесь, вы его уже нашли, если читаете мой отзыв. Я говорю о садике bambiniclub_detsad. Как по мне, то выбор очевиден: если вы хотите, чтобы ребёнок был в садике счастлив, вам сюда. Наша дочь ходила в этот сад полгода. Сейчас по семейным обстоятельствам пришлось прекратить посещения.
+                                    </p>
+                                    <p>Мы ходили в младшую группу, группа небольшая, и это меня очень радовало, потому что воспитатели могут каждому уделить время. Каждый день даже у малышей проходят занятия, прогулки, время для игр, несмотря на то, что у нас младшая группа, каждую пятницу у деток проходили кулинарные мастер-классы, где малыши готовили вкусности, ребёнок от этого в восторге. Даже когда ребёнку нужно было диетическое питание, это тоже было легко согласовано, за это отдельное спасибо. В саду есть видеонаблюдение, всегда можно посмотреть чем занят ребёнок.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Татьяна Озерова</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_2.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Мария Корепова</div>
+                                <div class="text-content">
+                                    <p>Спасибо большое Вам и персоналу садика за работу, за доброту, за внимание и заботу о Нике! Это был наш первый садиковский опыт и я ни разу не пожалела, что отдала ее именно в Бамбини)</p>
+                                    <p>Сейчас мы озадачены выбором нового садика в Питере, обошли уже несколько, и с Бамбини ни один даже рядом не стоял) Очень жаль, что вас нельзя перевезти с собой!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Мария Корепова</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_3.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Мария Корепова</div>
+                                <div class="text-content">
+                                    <p>Спасибо большое Вам и персоналу садика за работу, за доброту, за внимание и заботу о Нике! Это был наш первый садиковский опыт и я ни разу не пожалела, что отдала ее именно в Бамбини)</p>
+                                    <p>Сейчас мы озадачены выбором нового садика в Питере, обошли уже несколько, и с Бамбини ни один даже рядом не стоял) Очень жаль, что вас нельзя перевезти с собой!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-wrapper">
+                        <!-- 4 -->
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_3.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                                <div class="text-content">
+                                    <p>Ходили в этот садик почти год. Моя крошка была в восторге, а я спокойна, потому что знала, что здесь очень ответственный, заботливый персонал. К каждому найдут подход. Огромное спасибо нашему воспитателю и помощнице Олечке и Нуне.</p>
+                                    <p>Мы вас никогда не забудем, и будем скучать. Николаю отдельное спасибо, он и воспитатель, и заведующий в одном лице. Всех вам благ и процветания, всем рекомендую.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 -->
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_3.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                                <div class="text-content">
+                                    <p>Ходили в этот садик почти год. Моя крошка была в восторге, а я спокойна, потому что знала, что здесь очень ответственный, заботливый персонал. К каждому найдут подход. Огромное спасибо нашему воспитателю и помощнице Олечке и Нуне.</p>
+                                    <p>Мы вас никогда не забудем, и будем скучать. Николаю отдельное спасибо, он и воспитатель, и заведующий в одном лице. Всех вам благ и процветания, всем рекомендую.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6 -->
+                        <div class="reviews-item">
+                            <div class="mobile-text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                            </div>
+                            <div class="img-container">
+                                <img src="/img/reviews_3.png">
+                            </div>
+                            <div class="text-container">
+                                <div class="text-header">Юлия Владимировна</div>
+                                <div class="text-content">
+                                    <p>Ходили в этот садик почти год. Моя крошка была в восторге, а я спокойна, потому что знала, что здесь очень ответственный, заботливый персонал. К каждому найдут подход. Огромное спасибо нашему воспитателю и помощнице Олечке и Нуне.</p>
+                                    <p>Мы вас никогда не забудем, и будем скучать. Николаю отдельное спасибо, он и воспитатель, и заведующий в одном лице. Всех вам благ и процветания, всем рекомендую.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- global call button -->
+                <div class="global-btn_container">
+                    <a class="global-btn" href="tel:+7 000 000 00 00">
+                        <span>Позвонить прямо сейчас</span>
+                    </a>
+                </div>
+                <!-- end global call button -->
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- ===== Получить подарок ===== -->
     <section class="gift" id="anchor_gift">
         <div class="wrapper">
@@ -607,16 +812,16 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=3a99b129-6a22-41fb-a423-c085fcd1a1e4&amp;lang=ru_RU" type="text/javascript"></script>
-    <!-- dev -->
-    <script src="/js/vue.js"></script>
-    <!-- prod -->
-    <!-- <script src="/js/vue.min.js"></script> -->
 
     <!-- fancybox -->
     <link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
     <script src="/fancybox/jquery.fancybox.min.js"></script>
     <!-- end fancybox -->
-    <script src="/js/main.js"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <script src="/js/map.js"></script>
+    <script src="/js/main.js"></script>
+
 </body>
 </html>

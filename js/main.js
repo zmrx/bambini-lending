@@ -30,6 +30,27 @@ $(document).ready(function(){
     });
 });
 
+const sliderInit = ()=>{
+    if(document.documentElement.clientWidth < 992 ){
+        $('.reviews .reviews-list-mobile').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: false,
+            dots: true,
+            adaptiveHeight: true,
+        });
+    }else{
+        $('.reviews .reviews-list-desktop').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: false,
+            dots: true,
+            // adaptiveHeight: true,
+        });
+    }
+}
+sliderInit();
+
 
 
 //открытие модалки
