@@ -49,9 +49,7 @@ const sliderInit = ()=>{
         });
     }
 }
-sliderInit();
-
-
+document.addEventListener('DOMContentLoaded', sliderInit);
 
 //открытие модалки
 function modalOpener(e) {
