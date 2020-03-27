@@ -1,3 +1,9 @@
+$gellary-h-font-family: $font-guerrilla;
+$gellary-h-color: $color-soft-black;
+$gellary-text-color: $color-soft-black;
+$gellary-hover-text-shadow: $color-yellow;
+$gellary-hover-time: $transition-fast;
+
 .gellary{
     .content-inner{
         display: flex;
@@ -5,14 +11,14 @@
         justify-content: center;
         padding: 50px 0;
         overflow: hidden;
-
     }
     h2{
         margin: 0;
-        padding-bottom: 80px;
-        color: $color-soft-black;
-        font-size: 2rem;
-        line-height: 2rem;
+        padding-bottom: 35px;
+        color: $gellary-h-color;
+        font-family: $gellary-h-font-family;
+        font-size: 1.6rem;
+        line-height: 100%;
         text-align: center;
     }
     .list{
@@ -30,8 +36,12 @@
     }
 
     @media(min-width: $screen-md){
+        h2{
+            font-size: 3rem;
+            padding-bottom: 80px;
+        }
         .content-inner{
-            padding: 100px 0;
+            padding: 130px 0 100px;
         }
         .list{
             margin-left: -20px;

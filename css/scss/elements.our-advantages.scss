@@ -1,5 +1,10 @@
+$our-advantages-h-font-family: $font-guerrilla;
+$our-advantages-h-color: $color-soft-black;
+$our-advantages-text-color: $color-soft-black;
+
+
 .our-advantages{
-    background-color: $color-purple;
+    // background-color: $color-purple;
 
     .content-inner{
         display: flex;
@@ -10,7 +15,8 @@
     h2{
         margin: 0;
         padding-bottom: 80px;
-        color: $color-white;
+        color: $our-advantages-h-color;
+        font-family: $our-advantages-h-font-family;
         font-size: 2rem;
         line-height: 2rem;
         text-align: center;
@@ -80,6 +86,9 @@
     }
 
     @media(min-width: $screen-md){
+        h2{
+            font-size: 3rem;
+        }
         .content-inner{
             padding: 100px 0;
         }

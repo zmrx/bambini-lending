@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>lend2</title>
-    <link rel="stylesheet" href="/css/compiled.min.css">
+    <title>lend3</title>
+    <link rel="stylesheet" href="/css/main.min.css">
 </head>
 <body>
     <header id="anchor_main">
@@ -573,16 +573,14 @@
             </div>
         </div>
     </section>
-    <!-- ===== Получить подарок ===== -->
+    <!-- ===== Получить скидку ===== -->
     <section class="gift" id="anchor_gift">
         <div class="wrapper">
             <div class="content-inner">
 
                 <div class="text-container">
-                    <p class="main-text">
-                        Получи свой подарок прямо сейчас!
-                    </p>
-                    <span class="sub-text">Хотите, что бы ваш ребенок проводил время с пользой и развивался?<br> Мы предоставляем все возможности для роста вашего ребенка!</span>
+                    <p class="main-text">Получи свою скидку<br>прямо сейчас!</p>
+                    <span class="sub-text">Хотите, что бы ваш ребенок проводил время с пользой и развивался?<br>Мы предоставляем все возможности для роста вашего ребенка!</span>
                 </div>
                 <div class="form">
                     <form>
@@ -597,6 +595,39 @@
                         <div class="input-item-checkbox">
                             <input id="gift_accept" type="checkbox" checked>
                             <label for="gift_accept">Я принимаю условия <a data-modalname="modal-privacy-policy">Пользовательского соглашения</a></label>
+                        </div>
+                        <div class="input-item-radio-group">
+                            <div class="radio-btns-group">
+                                <div class="radio-btn-container">
+                                    <input id="gift_age-1" name="age" type="radio" value="1">
+                                    <label for="gift_age-1">1</label>
+                                </div>
+                                <div class="radio-btn-container">
+                                    <input id="gift_age-2" name="age" type="radio" value="2">
+                                    <label for="gift_age-2">2</label>
+                                </div>
+                                <div class="radio-btn-container">
+                                    <input id="gift_age-3" name="age" type="radio" value="3">
+                                    <label for="gift_age-3">3</label>
+                                </div>
+                                <div class="radio-btn-container">
+                                    <input id="gift_age-4" name="age" type="radio" value="4" checked>
+                                    <label for="gift_age-4">4</label>
+                                </div>
+                                <div class="radio-btn-container">
+                                    <input id="gift_age-5" name="age" type="radio" value="5">
+                                    <label for="gift_age-5">5</label>
+                                </div>
+                                <div class="radio-btn-container">
+                                    <input id="gift_age-6" name="age" type="radio" value="6">
+                                    <label for="gift_age-6">6</label>
+                                </div>
+                                <div class="radio-btn-container">
+                                    <input id="gift_age-7" name="age" type="radio" value="7">
+                                    <label for="gift_age-7">7</label>
+                                </div>
+                            </div>
+                            <span for="gift_age">Возраст ребенка:</span>
                         </div>
                         <div class="input-item-submit">
                             <input class="global-btn" type="submit" value="Оставить заявку">
@@ -663,18 +694,29 @@
                 <h2>Контакты</h2>
 
                 <div class="list">
-                    <div class="item soc-img">
-                        <a href="[[+vk]]">
-                            <img src="/img/contacts_vk_yellow.svg" alt="vk">
-                        </a>
+                    <div class="line">
+                        <div class="item soc-img">
+                            <a href="[[+vk]]">
+                                <img src="/img/contacts_vk_yellow.png" alt="vk">
+                            </a>
+                        </div>
+
+                        <div class="item soc-img">
+                            <a href="[[+instagram]]">
+                                <img src="/img/contacts_inst_yellow.png" alt="instagramm">
+                            </a>
+                        </div>
                     </div>
-                    <div class="item soc-img">
-                        <a href="[[+instagram]]">
-                            <img src="/img/contacts_inst_yellow.svg" alt="instagramm">
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="tel:+7 (000) 000 - 00 - 00" class="tel">+7 (000) 000 - 00 - 00</a>
+                    <div class="line">
+                        <div class="item soc-img">
+                            <a href="#">
+                                <img src="/img/contacts_whap.png" alt="whats app">
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="tel:+7 (000) 000 - 00 - 00" class="tel">+7 (000) 000 - 00 - 00</a>
+                        </div>
                     </div>
                 </div>
                 <!-- global call button -->
@@ -689,11 +731,11 @@
     </section>
     <!-- ===== Карта ===== -->
     <section class="map">
-        <div class="wrapper">
+        <!-- <div class="wrapper">
             <div class="content-inner">
-                <div id="map"></div>
             </div>
-        </div>
+        </div> -->
+        <div id="map"></div>
     </section>
 
     <footer>
@@ -810,7 +852,7 @@
 
     <!-- ===== end modal window for privacy policy ===== -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=3a99b129-6a22-41fb-a423-c085fcd1a1e4&amp;lang=ru_RU" type="text/javascript"></script>
 
     <!-- fancybox -->

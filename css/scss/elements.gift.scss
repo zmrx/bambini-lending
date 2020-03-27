@@ -1,5 +1,14 @@
+$gift-bg-color: $color-white;
+$gift-h-font-family: $font-guerrilla;
+$gift-h-color: $color-soft-black;
+$gift-text-color: $color-grey;
+$gift-form-text-color: $color-soft-black;
+$gift-form-input-color: $color-light-blue;
+
+$gift-hover-time: $transition-fast;
+
 .gift{
-    background-color: $color-purple;
+    background-color: $gift-bg-color;
     .content-inner{
         display: flex;
         flex-direction: column;
@@ -9,7 +18,8 @@
     .text-container{padding-bottom: 15px}
     .main-text{
         width: 100%;
-        color: $color-white;
+        color: $gift-h-color;
+        font-family: $gift-h-font-family;
         font-size: 1.5rem;
         line-height: 1;
         font-weight: 700;
@@ -19,7 +29,7 @@
     .sub-text{
         display: inline-block;
         width: 100%;
-        color: $color-white;
+        color: $gift-text-color;
         font-size: 1.1rem;
         text-align: center;
     }
@@ -32,18 +42,19 @@
         label{
             padding-left: 20px;
             font-size: 0.8rem;
-            color: $color-white;
+            color: $gift-form-text-color;
         }
         input{
             padding: 16px 18px;
             height: 50px;
             width: 100%;
             max-width: 450px;
-            border:2px solid $color-white;
+            background-color: $gift-form-input-color;
+            border:2px solid $gift-form-input-color;
             border-radius: 5px;
-            box-shadow: 0px 10px 25px rgba(223, 102, 93, 0.26);
+            // box-shadow: 0px 10px 25px rgba(223, 102, 93, 0.26);
             font-size: 0.9rem;
-            color: $color-grey;
+            color: $gift-form-text-color;
             transition: $transition-fast;
             &:focus{
                 outline:none;
@@ -57,7 +68,7 @@
         padding-left: 30px;
         padding-bottom: 15px;
         font-size: 0.8rem;
-        color: $color-white;
+        color: $gift-form-text-color;
 
         label{
             position: relative;
@@ -70,20 +81,20 @@
                 height: 1rem;
                 width: 1rem;
                 border-radius: 5px;
-                background-color: $color-white;
-                box-shadow: 0px 10px 25px rgba(223, 102, 93, 0.26);
+                background-color: $gift-form-input-color;
+                // box-shadow: 0px 10px 25px rgba(223, 102, 93, 0.26);
             }
             &::after{
                 content: "";
                 opacity: 0;
                 position: absolute;
                 top: 50%;
-                left: -30px;;
+                left: -30px;
                 transform: translateY(-50%);
                 height: 1rem;
                 width: 1rem;
                 background-image: url($path+'/img/tick.svg');
-                transition: $transition-fast
+                transition: $transition-fast;
             }
             cursor: pointer;
         }
@@ -95,8 +106,78 @@
             transition: $transition-fast
         }
         a{
-            color: $color-white;
+            color: $gift-form-text-color;
             text-decoration:underline;
+        }
+    }
+    .input-item-radio-group{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 35px;
+        span{
+            margin-bottom: 0.5rem;
+            padding-left: 20px;
+            font-size: 0.8rem;
+            color: $gift-form-text-color;
+        }
+    }
+    .radio-btns-group{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        &::before{
+            content: "";
+            position: absolute;
+            top:5px;
+            left: 5px;
+            transform: translate(0%, -50%);
+            width: 98%;
+            height: 2px;
+            background-color: $color-ligth-orange;
+            z-index: -1;
+        }
+    }
+    .radio-btn-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        label{
+            position: relative;
+            margin: 0;
+            padding: 25px 5px 0;
+            color: $gift-form-text-color;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 5px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 12px;
+                width: 12px;
+                background-image: url( $path + '/img/radio-btn-group-bg.png');
+                z-index: 1;
+            }
+
+            &::after{
+                content: "";
+                position: absolute;
+                top: 5px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 20px;
+                width: 20px;
+                background-image: url( $path + '/img/radio-btn-group-active-bg.png');
+                z-index: 2;
+                opacity: 0;
+                transition: $transition-fast;
+            }
+        }
+        input{
+            display: none;
+        }
+        input:checked+label::after{
+            opacity: 1;
+            transition: $transition-fast;
         }
     }
     .input-item-submit{
@@ -198,7 +279,7 @@
         }
         @media(min-width: $screen-md){
             .decoration-bg{
-                bottom: -100px;
+                bottom: 0px;
             }
             .decoration-inner{
                 width: $screen-md;
@@ -225,6 +306,14 @@
             }
             .kid_1{
                 right: -100px;
+            }
+        }
+        @media(min-width: $screen-hd){
+            .decoration-inner{
+                width: $screen-fhd;
+            }
+            .kid_1{
+                right: 0px;
             }
         }
     }

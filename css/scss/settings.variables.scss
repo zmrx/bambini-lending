@@ -19,10 +19,16 @@ $screen-lg: 992px;
 $screen-xl: 1200px;
 /* hd screen / wide desktop*/
 $screen-hd: 1366px;
+/* Fhd screen / wide desktop*/
+$screen-fhd: 1920px;
+
+$font-geometria: 'Geometria';
+$font-guerrilla: 'Guerrilla';
 
 $transition-fast:.2s;
 
 $color-white: #fff;
+$color-soft-blue: #75AEFF;
 $color-grey: #9E9E9E;
 $color-yellow: #FCC50D;
 $color-light-blue: #F4F7FC;
@@ -30,3 +36,5 @@ $color-soft-black: #4C4C4C;
 $color-soft-red: #DF665D;
 $color-soft-pink: #FDEFEF;
 $color-purple: #7284E5;
+$color-ligth-orange: #FDCD06;
+$color-pink: #FF6BAE;

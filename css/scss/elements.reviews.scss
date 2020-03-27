@@ -1,4 +1,8 @@
+$reviews-h-font-family: $font-guerrilla;
+$reviews-h-color: $color-soft-black;
+
 .reviews{
+    overflow: hidden;
 
     .content-inner{
         display: flex;
@@ -11,7 +15,8 @@
     h2{
         margin: 0;
         padding-bottom: 80px;
-        color: $color-soft-black;
+        color: $reviews-h-color;
+        font-family: $reviews-h-font-family;
         font-size: 2rem;
         line-height: 2rem;
         text-align: center;
@@ -86,6 +91,9 @@
     }
 
     @media(min-width: $screen-md){
+        h2{
+            font-size: 3rem;
+        }
         .content-inner{
             padding: 100px 0;
         }

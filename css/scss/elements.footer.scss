@@ -1,5 +1,12 @@
+$footer-bg-color: $color-soft-blue;
+$footer-logo-text-color: $color-white;
+$footer-menu-item-color: $color-white;
+$footer-menu-item-color-hover: $color-white;
+$desktop-footer-menu-item-color-hover-text-shadow: $color-yellow;
+$footer-menu-item-transition-time: $transition-fast;
+
 footer{
-background-color: $color-soft-red;
+background-color: $footer-bg-color;
 display: block;
 padding: 40px 0;
 .content-inner{
@@ -37,7 +44,7 @@ padding: 40px 0;
         line-height: 1rem;
         font-weight: 700;
         text-transform: uppercase;
-        color: $color-white;
+        color: $footer-logo-text-color;
     }
 }
 .footer-menu{
@@ -56,11 +63,11 @@ padding: 40px 0;
         li{}
         a{
             margin: 10px;
-            color: $color-white;
+            color: $footer-menu-item-color;
             &:hover,
             &:focus,
             &:active{
-                color: $color-white;
+                color: $footer-menu-item-color-hover;
                 text-decoration: none;
             }
         }
@@ -73,7 +80,7 @@ padding: 40px 0;
         &:hover,
         &:focus,
         &:active{
-            color: $color-white;
+            color: $footer-menu-item-color;
             text-decoration: underline;
         }
     }
@@ -100,11 +107,7 @@ padding: 40px 0;
         span{
             padding: 15px;
             max-width: 292px;
-            font-size: 1rem;
             line-height: 100%;
-            font-weight: 700;
-            color: $color-white;
-            text-transform: uppercase;
         }
     }
     .footer-menu{
@@ -117,19 +120,16 @@ padding: 40px 0;
             li{}
             a{
                 margin: 15px;
-                color: $color-white;
-                transition: $transition-fast;
+                transition: $footer-menu-item-transition-time;
                 &:hover,
                 &:focus,
                 &:active{
-                    text-decoration: none;
-                    text-shadow: 0 0 20px $color-yellow;
+                    text-shadow: 0 0 20px $desktop-footer-menu-item-color-hover-text-shadow;
                     font-weight: 700;
-                    transition: $transition-fast;
+                    transition: $footer-menu-item-transition-time;
                 }
             }
         }
-
     }
 }
 }

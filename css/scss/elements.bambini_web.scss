@@ -1,3 +1,6 @@
+$bambini_web-h-font-family: $font-guerrilla;
+$bambini_web-h-color: $color-soft-black;
+
 .bambini_web{
     .content-inner{
         display: flex;
@@ -10,7 +13,8 @@
         margin: 0 auto;
         padding-bottom: 80px;
         max-width: 500px;
-        color: $color-soft-black;
+        color: $bambini_web-h-color;
+        font-family: $bambini_web-h-font-family;
         font-size: 2rem;
         line-height: 2rem;
         text-align: center;
@@ -62,6 +66,9 @@
     }
 
     @media(min-width: $screen-md){
+        h2{
+            font-size: 3rem;
+        }
         .content-inner{
             padding: 100px 0;
         }
